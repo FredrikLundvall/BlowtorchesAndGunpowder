@@ -9,6 +9,9 @@
     <Import_RootNamespace>BlowtorchesAndGunpowder</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameMessages\ClientAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameMessages\GameState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameMessages\MessageBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoggedInUser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoginAccount.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SecurePasswordHasher.cs" />
