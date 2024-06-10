@@ -12,5 +12,9 @@ namespace BlowtorchesAndGunpowder
         {
             PlayerShooting = aPlayerShooting;
         }
+        public static ClientAction CreateFromJson(string aActionJson)
+        {
+            return MessageBase.CreateFromJson<ClientAction>(aActionJson);
+        }
     }
 }

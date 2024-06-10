@@ -18,9 +18,9 @@ namespace BlowtorchesAndGunpowder
             return Newtonsoft.Json.JsonConvert.SerializeObject(this);
         }
 
-        public static ClientAction CreateFromJson(string aActionJson)
+        public static T CreateFromJson<T>(string aActionJson)
         {
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<ClientAction>(aActionJson);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(aActionJson);
         }
     }
 }

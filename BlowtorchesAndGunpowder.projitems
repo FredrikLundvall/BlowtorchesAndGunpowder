@@ -15,5 +15,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)LoggedInUser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoginAccount.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SecurePasswordHasher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextLog.cs" />
   </ItemGroup>
 </Project>
